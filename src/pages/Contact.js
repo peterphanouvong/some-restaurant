@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
 import { pageLoadAnimation } from "../animations/pageAnimations";
 import BottomPhotos from "../components/BottomPhotos";
 import salmon from "../images/salmon.jpg";

@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import pdf from "../uploads/menuCocktails_Balausta.pdf";
 
 // Components
 import { ReactComponent as Cross } from "../images/cross.svg";

@@ -48,10 +48,20 @@ const Restaurant = () => {
             holds two Sol Repsol awards.
           </h2>
           <div className="menu-links">
-            <a className="secondary-button" target="_blank" href={pdf}>
+            <a
+              className="secondary-button"
+              target="_blank"
+              href={pdf}
+              rel="noreferrer"
+            >
               The Menu
             </a>
-            <a className="secondary-button" target="_blank" href={pdf}>
+            <a
+              className="secondary-button"
+              target="_blank"
+              href={pdf}
+              rel="noreferrer"
+            >
               Tasting Menu
             </a>
           </div>
@@ -62,7 +72,12 @@ const Restaurant = () => {
             Our Cocktail Bar boasts a varied menu, from well-known drinks to our
             barman’s new creations for those seeking new flavours.
           </h2>
-          <a className="secondary-button" target="_blank" href={pdf}>
+          <a
+            className="secondary-button"
+            target="_blank"
+            href={pdf}
+            rel="noreferrer"
+          >
             The cocktail menu
           </a>
         </div>

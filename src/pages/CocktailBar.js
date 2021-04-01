@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
 import pdf from "../uploads/menuCocktails_Balausta.pdf";
 
 import cocktailbar from "../images/cocktail-bar.jpg";
@@ -34,7 +33,7 @@ const CocktailBar = () => {
             universal cocktails to new recipes designed by our bartender, for
             those looking for new flavours.
           </h2>
-          <a className="button" href={pdf} target="_blank">
+          <a className="button" href={pdf} target="_blank" rel="noreferrer">
             The cocktail menu
           </a>
         </div>

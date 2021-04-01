@@ -35,7 +35,12 @@ const Home = () => {
               Our menu is a tribute to Malaga's traditional gastronomic culture,
               with an innovative twist.
             </h2>
-            <a className="secondary-button" href={pdf} target="_blank">
+            <a
+              className="secondary-button"
+              href={pdf}
+              target="_blank"
+              rel="noreferrer"
+            >
               The Menu
             </a>
           </div>
@@ -72,7 +77,12 @@ const Home = () => {
               selection of classic and signature cocktails. Open daily from
               12.30 pm to 12.00 am.
             </h2>
-            <a href={pdf} target="_blank" className="secondary-button">
+            <a
+              href={pdf}
+              target="_blank"
+              className="secondary-button"
+              rel="noreferrer"
+            >
               The cocktail menu
             </a>
           </div>
