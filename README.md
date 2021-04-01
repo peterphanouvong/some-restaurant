@@ -1,6 +1,6 @@
 # This is a Restaurant App built in React
 
-# TODO:
+## TODO:
 
 - optimise the photos
 - loading buffer
